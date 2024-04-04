@@ -56,7 +56,7 @@ const HomePage: NextPage<HomePageProps> = ({comics, total}) => {
                             </CardContent>
                             <CardActions sx={{ justifyContent: 'space-around' }}>
                                 <Button size="small" variant="outlined">
-                                    <Link href={`/comic/${itemComic.id}`} passHref>
+                                    <Link href={`/comics/${itemComic.id}`} passHref>
                                         <a style={{ textDecoration: 'none', color: '#1565c0' }}>DETAIL</a>
                                     </Link>
                                 </Button>
