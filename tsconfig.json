@@ -45,7 +45,7 @@
     "**/*.ts",
     "**/*.tsx",
     "types.d.ts"
-  ],
+, "components/creditCard/CreditCard.js", "components/creditCard/app.ss"  ],
   "exclude": [
     "node_modules"
   ]
