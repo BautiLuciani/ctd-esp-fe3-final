@@ -17,7 +17,7 @@ const CharacterPage: NextPage<CharacterPageProps> = ({ character }) => {
             <Head>
                 <title>Character Detail</title>
                 <meta name="description" content="Character detail page." />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/marvel.png" />
             </Head>
 
             <BodySingle title={'CHARACTER DETAIL'}>

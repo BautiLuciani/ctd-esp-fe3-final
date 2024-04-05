@@ -19,7 +19,7 @@ const DetailPage: NextPage<DetailPageProps> = ({ comicDetail }) => {
             <Head>
                 <title>Comic Detail</title>
                 <meta name="description" content="Comic detail page" />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/marvel.png" />
             </Head>
 
             <BodySingle title={'COMIC DETAIL'}>
@@ -33,7 +33,7 @@ const DetailPage: NextPage<DetailPageProps> = ({ comicDetail }) => {
                             image={
                                 comicDetail.images.length > 0
                                     ? `${comicDetail.images[0].path}.${comicDetail.images[0].extension}`
-                                    : 'https://pbs.twimg.com/profile_images/1560508217867718657/8ak-Td6l_400x400.jpg'     //coloque esta imagen por defecto porque me parecio mejor
+                                    : 'https://pbs.twimg.com/profile_images/1560508217867718657/8ak-Td6l_400x400.jpg'
                             }
                             title={comicDetail.title}
                         />

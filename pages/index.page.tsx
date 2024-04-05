@@ -30,7 +30,7 @@ const HomePage: NextPage<HomePageProps> = ({comics, total}) => {
             <Head>
                 <title>Marvel Page</title>
                 <meta name="description" content="Page where 12 Marvel characters are displayed"/>
-                <link rel="icon" href="/favicon.ico"/>
+                <link rel="icon" href="/marvel.png"/>
             </Head>
 
             <BodySingle title={"Marvel Characters"}>
@@ -45,7 +45,7 @@ const HomePage: NextPage<HomePageProps> = ({comics, total}) => {
                                 image={
                                     itemComic.images.length > 0
                                         ? `${itemComic.images[0].path}.${itemComic.images[0].extension}`
-                                        : 'https://pbs.twimg.com/profile_images/1560508217867718657/8ak-Td6l_400x400.jpg'     //coloque esta imagen por defecto porque me parecio mejor
+                                        : 'https://pbs.twimg.com/profile_images/1560508217867718657/8ak-Td6l_400x400.jpg'
                                 }
                                 title={itemComic.title}
                             />
